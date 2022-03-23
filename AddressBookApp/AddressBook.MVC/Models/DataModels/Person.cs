@@ -14,10 +14,8 @@ namespace AddressBook.MVC.Models.DataModels
         [ForeignKey("EmployerId")]
         public Employer? Employer { get; set; }
         public int EmployerId { get; set; }
-
-
-        [ForeignKey("AddressId")]
-        public Address Address { get; set; }
-        public int AddressId { get; set; }
+        
+        public Address? Address { get; set; }
+        public int? AddressId { get; set; }
     }
 }

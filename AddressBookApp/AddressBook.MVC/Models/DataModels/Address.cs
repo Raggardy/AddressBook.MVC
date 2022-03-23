@@ -4,7 +4,7 @@ namespace AddressBook.MVC.Models.DataModels
 {
     public class Address : ObjectBase
     {
-        public int AddressNumber { get; set; }
+        public int HouseNumber { get; set; }
         public string StreetName { get; set; }
         public string City { get; set; }
         public string PostCode { get; set; }
